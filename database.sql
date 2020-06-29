@@ -1,0 +1,5 @@
+CREATE TABLE "tasks"(
+	"id" SERIAL PRIMARY KEY,
+	"task" VARCHAR(160) NOT NULL,
+	"completed" VARCHAR(1) NOT NULL
+	);
